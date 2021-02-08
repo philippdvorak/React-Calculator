@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const color = "#daf63d";
+const color = "#eee";
 
 export const Number = styled.div`
   font-size: 70px;

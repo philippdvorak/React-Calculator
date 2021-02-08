@@ -11,7 +11,7 @@ export const CalcButton = styled.button`
   border: none;
   user-select: none;
   cursor: pointer;
-  color: #daf63d;
+  color: #eee;
   transition: all .5s;
 
   &:hover {

@@ -69,7 +69,7 @@ const Calculator = () => {
             case "<":
                 return <Button value={i} key={i} onClick={
                     () => {
-                        setCurrentValue(currentValue.substring(0, currentValue.length-1));
+                        setCurrentValue(currentValue.length >= 2 ? currentValue.substring(0, currentValue.length-1) : currentValue);
                     }
                 }/>
             case "=":
